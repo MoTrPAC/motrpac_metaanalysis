@@ -17,3 +17,5 @@ Loading each of these files will add the following objects to the R session:
   3. (Optional if preprocessing was successful) gene_fold_changes - for each gene and subject this matrix contains the fold change of a time-point vs. the base line.
   4. (Optional if preprocessing was successful) probe_fchanges - same as above, but computed using a slower algorithm. Was currently kept for QA reasons.
   5. (Optional if preprocessing was successful) time2ttest_stats - this matrix gives the **summary statistics** for each gene and each time point that is not the baseline: mean and variance of fold change, and the p-value of a paired t-test. 
+
+For questions and suggestions please contact us at davidama@stanford.edu
